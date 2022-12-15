@@ -50,7 +50,7 @@ hero {
     background-color: rgb(176, 197, 203);
     background: url(https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center;
     height: 400px;
-    background-size:cover;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -76,7 +76,7 @@ hero > div {
     width: 660px;
     color: gray;
     margin: 20px 10px;
-    box-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.8) ;
+    box-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.2) ;
 
 }
 /* Hero Title */
@@ -93,16 +93,17 @@ section {
     display: flex;
     background-color: white;
     align-items: center;
-    height: 400px;
+    height: 450px;
     justify-content: center;
     flex-direction: row;
+    margin: 0px 100px;
 }
 /* Call-to-Action/Sign In */
 #action {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 30px;
+    padding: 0px 70px;
 }
 /* Top Text */
 h1 {
@@ -112,9 +113,10 @@ h1 {
 }
 /* Bottom Text */
 h2 {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: lighter;
-    margin: 15px 0px 20px 0px;
+    margin: 13px 0px 20px 0px;
+    color:rgba(0, 0, 0, 0.622);
 }
 /* Sign In Button */
 #sign-in {
@@ -131,13 +133,39 @@ article {
     display: flex;
     flex-direction: row;
     background-color: rgba(233, 233, 233, 0.493);
-    margin: 20px 5px 0px 25px;
+    margin: 20px 5px 0px 5px;
     align-items: center;
     justify-content: center;
-    width: 230px;
-    height: 230px;
+    width: 270px;
+    height: 20px;
 }
 
+#img1 {
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.325);
+    background: url(https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)no-repeat bottom;
+    opacity: 0.7;
+    width: 300px;
+    height: 260px;
+}
+#img2 {
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.325);
+    background: url(https://media.istockphoto.com/id/1272128530/photo/home-with-blue-siding-and-stone-fa%C3%A7ade-on-base-of-home.jpg?b=1&s=170667a&w=0&k=20&c=vdpWpslhj_oGFrLxbQ1N0nNmGj_gU-2qbfUSpdArziU=)no-repeat center;
+    background-size: cover;
+    opacity: 0.7;
+    width: 300px;
+    height: 260px;
+}
+#img3 {
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.325);
+    background: url(https://www.houseplans.net/uploads/plans/26001/elevations/59708-1200.jpg?v=052821120220)no-repeat center;
+    background-size: cover;
+    opacity: 0.7;
+    width: 300px;
+    height: 260px;
+}
 
 /* Panels Section */
 #panels {
@@ -173,15 +201,36 @@ article {
     line-height: 25px;
 
 }
-/* Panel Images */
-#panel-img {
+
+#panel-img1 {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
-    background: url(https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/07/Finance_a_home.webp)no-repeat center;
-    background-size: contain;
+    background: url(https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/07/Buy_a_home.webp)no-repeat center;
+    background-size: cover;
     width: 290px;
     height: 170px;
 }
+
+#panel-img2 {
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.325);
+    background: url(https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/07/Finance_a_home.webp)no-repeat center;
+    background-size: cover;
+    width: 290px;
+    height: 170px;
+
+}
+
+#panel-img3 {
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.325);
+    background: url(https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/08/Rent_a_home.webp)no-repeat center;
+    background-size: cover;
+    width: 290px;
+    height: 170px;
+}
+
+
 /* Panel Titles */
 #panel-contents > h2 {
     font-weight: 500;
