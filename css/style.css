@@ -48,11 +48,14 @@ nav > div {
 hero {
     display: flex;
     background-color: rgb(176, 197, 203);
+    background: url(https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center;
     height: 400px;
+    background-size:cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+
     
 }
 /* Hero Contents */
@@ -73,7 +76,7 @@ hero > div {
     width: 660px;
     color: gray;
     margin: 20px 10px;
-    box-shadow: 0.01px 0.01px 0.3em rgba(0, 0, 0, 0.2) ;
+    box-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.8) ;
 
 }
 /* Hero Title */
@@ -82,7 +85,7 @@ hero > div {
     font-size: 35px;
     color: white;
     font-weight: bolder;
-    text-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.2);
+    text-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.9);
     font-family: 'DM Serif Display', serif;
 }
 /* Sign In Content */
@@ -127,13 +130,15 @@ h2 {
 article {
     display: flex;
     flex-direction: row;
-    background-color: rgba(233, 233, 233, 0.325);
+    background-color: rgb(233, 233, 233);
     margin: 20px 5px 0px 25px;
     align-items: center;
     justify-content: center;
     width: 230px;
     height: 230px;
 }
+
+
 /* Panels Section */
 #panels {
     display: flex;
@@ -147,7 +152,7 @@ article {
 /* Panels */
 #panels > article {
     display: flex;
-    background-color: rgb(248, 248, 248);
+    background-color: white;
     justify-content: center;
     align-items: center;
     border: none;
@@ -172,6 +177,8 @@ article {
 #panel-img {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
+    background: url(https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/5/2022/07/Finance_a_home.webp)no-repeat center;
+    background-size: contain;
     width: 290px;
     height: 170px;
 }
