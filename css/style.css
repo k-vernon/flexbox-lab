@@ -18,8 +18,7 @@ body {
       Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     margin: 0;
 }
-
-
+/* Navigation Bar */
 nav {
     display: flex;
     flex-direction: row;
@@ -27,10 +26,8 @@ nav {
     background-color: white;
     justify-content: center;
     padding: 15px;
-    
-    
 }
-
+/* Navigation Destinations */
 nav > div {
     display: flex;
     flex-direction: row;
@@ -38,7 +35,7 @@ nav > div {
     justify-content: center;
     margin: 0px 80px;
 }
-
+/* Zillow Logo */
 #logo {
     display: flex;
     justify-content: center;
@@ -46,8 +43,7 @@ nav > div {
     font-weight: bolder;
     color: rgb(29, 122, 221);
 }
-
-
+/* Main Hero */
 hero {
     display: flex;
     background-color: rgb(176, 197, 203);
@@ -57,31 +53,29 @@ hero {
     flex-direction: column;
     justify-content: flex-start;
     
-    
 }
-
+/* Hero Contents */
 hero > div {
     display: flex;
     justify-content: center;
     padding: 20px;
     margin: 50px 0px 0px 0px;
-
-    
 }
-
+/* Search Bar */
 #input {
     display: flex;
     background-color: white;
-    padding: 20px 30px;
-    border-radius: 6px;
+    padding: 24px 30px;
+    border-radius: 4px;
     justify-content: space-between;
     align-items: center;
-    width: 700px;
+    width: 660px;
     color: gray;
     margin: 20px 10px;
     box-shadow: 0.01px 0.01px 0.3em rgba(0, 0, 0, 0.2) ;
-}
 
+}
+/* Hero Title */
 #title {
     display: flex;
     font-size: 35px;
@@ -89,8 +83,7 @@ hero > div {
     font-weight: bolder;
     text-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.2);
     }
-
-
+/* Sign In Content */
 section {
     display: flex;
     background-color: white;
@@ -99,31 +92,26 @@ section {
     justify-content: center;
     flex-direction: row;
 }
-
+/* Call-to-Action/Sign In */
 #action {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 30px;
 }
-
+/* Top Text */
 h1 {
     font-size: 20px;
     font-weight: normal;
     margin: 0px 0px;
-
 }
-
+/* Bottom Text */
 h2 {
     font-size: 15px;
     font-weight: lighter;
     margin: 15px 0px 20px 0px;
 }
-    
-    
-
-
-
+/* Sign In Button */
 #sign-in {
     padding: 13px 20px;
     border-radius: 5px;
@@ -131,27 +119,95 @@ h2 {
     border: 1px solid rgb(29, 122, 221);
     color: rgb(29, 122, 221);
     font-size: 15px;
-    font-weight: 500;
-   
+    font-weight: 540;
 }
-
-
+/* Sign In Images */
 article {
     display: flex;
     flex-direction: row;
-    background-color: gray;
-    border: 2px solid gray;
-    margin: 20px 5px 0px 5px;
+    background-color: rgba(233, 233, 233, 0.325);
+    margin: 20px 5px 0px 25px;
     align-items: center;
     justify-content: center;
     width: 230px;
     height: 230px;
-    
-    
+}
+/* Panels Section */
+#panels {
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    flex-direction: row;
+
+}
+/* Panels */
+#panels > article {
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.2);;
+    width: 380px;
+    height: 530px;
+    margin: 0px 12px;
+    border-radius: 5px;
+}
+/* Panel Contents */
+#panel-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 30px 80px 30px;
+    line-height: 25px;
+
 }
 
+#panel-img {
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.325);
+    width: 290px;
+    height: 170px;
+}
 
+#panel-contents > h2 {
+    font-weight: 500;
+    font-size: 23px;
+    margin: 40px 0px 18px 0px;
 
+}
+
+#panel-contents > h3 {
+    font-size: 16px;
+    font-weight: lighter;
+    justify-content: center;
+    margin: 5px 0px 10px 0px;
+}
+
+#panel-contents > h4 {
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 0px 0px 0px 0px;
+}
+
+#hide {
+    color: rgba(255, 255, 255, 0);
+}
+
+#panel-contents > button {
+    padding: 13px 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(29, 122, 221);
+    color: rgb(29, 122, 221);
+    font-size: 15px;
+    font-weight: 540;
+    margin: 40px 10px 10px 10px;
+}
 
 
 
