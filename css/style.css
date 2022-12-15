@@ -130,7 +130,7 @@ h2 {
 article {
     display: flex;
     flex-direction: row;
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(233, 233, 233, 0.493);
     margin: 20px 5px 0px 25px;
     align-items: center;
     justify-content: center;
