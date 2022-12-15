@@ -139,7 +139,7 @@ article {
     width: 270px;
     height: 20px;
 }
-
+/* Sign In Image 1 */
 #img1 {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
@@ -148,6 +148,7 @@ article {
     width: 300px;
     height: 260px;
 }
+/* Sign In Image 2 */
 #img2 {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
@@ -157,6 +158,7 @@ article {
     width: 300px;
     height: 260px;
 }
+/* Sign In Image 3 */
 #img3 {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
@@ -200,8 +202,9 @@ article {
     padding: 80px 30px 80px 30px;
     line-height: 25px;
 
-}
 
+}
+/* Panel Image 1 */
 #panel-img1 {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
@@ -210,7 +213,7 @@ article {
     width: 290px;
     height: 170px;
 }
-
+/* Panel Image 2 */
 #panel-img2 {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
@@ -220,7 +223,7 @@ article {
     height: 170px;
 
 }
-
+/* Panel Image 3 */
 #panel-img3 {
     display: flex;
     background-color: rgba(233, 233, 233, 0.325);
@@ -237,6 +240,7 @@ article {
     font-size: 23px;
     margin: 40px 0px 18px 0px;
     font-family: 'DM Serif Display', serif;
+    color: black;
 }
 /* Panel Main Text */
 #panel-contents > h3 {
