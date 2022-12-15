@@ -34,7 +34,7 @@ nav > div {
     gap: 30px;
     justify-content: center;
     margin: 0px 80px;
-    
+    color: rgb(66, 66, 66);
 }
 /* Zillow Logo */
 #logo {
